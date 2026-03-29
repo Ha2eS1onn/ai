@@ -86,7 +86,7 @@ export function useChat({ settings, conversation, addMessage, updateMessage }: U
         model: KIMI_MODEL,
         messages,
         stream: true,
-        temperature: 1.0, // kimi-k2.5 only supports temperature = 1
+        // temperature: 1.0, // kimi-k2.5 only supports temperature = 1
       };
 
       // Disable thinking for fast mode
